@@ -127,7 +127,7 @@ public class SignUpFragment extends Fragment {
                         passwordEditText.getText().toString());
 
                 // See documentation for navigation here: https://developer.android.com/guide/navigation/navigation-navigate#id
-                navController.navigate(R.id.action_signUpFragment2_to_mainFragment);
+                navController.navigate(R.id.action_signUp_to_mainActivity22);
             }
         });
     }

@@ -41,6 +41,7 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation "androidx.drawerlayout:drawerlayout:1.1.1"
 
     /////////////////////////////////////////////////////////////////////////////////////////
     // The code block below has been added by Robert. This is here to allow for us to use the

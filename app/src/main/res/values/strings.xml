@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">CSE 3310 Term Project using Fragments</string>
+
+    <!-- YouTube video explaining next two lines: https://youtu.be/zYVEMCiDcmY?t=641 -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

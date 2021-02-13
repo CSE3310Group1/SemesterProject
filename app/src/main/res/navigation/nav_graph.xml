@@ -11,20 +11,11 @@
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_loginFragment_to_mainFragment2"
-            app:destination="@id/mainFragment" />
-        <action
             android:id="@+id/action_loginFragment_to_signUpFragment2"
             app:destination="@id/signUp" />
-    </fragment>
-    <fragment
-        android:id="@+id/mainFragment"
-        android:name="com.example.cse3310termprojectusingfragments.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_mainFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            android:id="@+id/action_loginFragment_to_mainActivity2"
+            app:destination="@id/mainActivity2" />
     </fragment>
     <fragment
         android:id="@+id/signUp"
@@ -32,7 +23,13 @@
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" >
         <action
-            android:id="@+id/action_signUpFragment2_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            android:id="@+id/action_signUp_to_mainActivity22"
+            app:destination="@id/mainActivity2" />
     </fragment>
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.cse3310termprojectusingfragments.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+
 </navigation>

@@ -131,7 +131,7 @@ public class LoginFragment extends Fragment {
                         passwordEditText.getText().toString());
 
                 // See documentation for navigation here: https://developer.android.com/guide/navigation/navigation-navigate#id
-                navController.navigate(R.id.action_loginFragment_to_mainFragment2);
+                navController.navigate(R.id.action_loginFragment_to_mainActivity2);
             }
         });
 
