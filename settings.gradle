@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "CSE 3310 Term Project using Fragments"
